@@ -1,0 +1,30 @@
+﻿.ButtonContainer {
+    display: flex;
+    justify-content: center; /* Alinha os itens ao centro horizontalmente */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    height: 50vh; /* Altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+.Button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+#Button_Lore {
+    background-color: blue; /* Azul */
+    color: white;
+}
+
+#Button_Skins {
+    background-color: green; /* Verde */
+    color: white;
+}
+
+#Button_Build {
+    background-color: red; /* Vermelho */
+    color: white;
+}

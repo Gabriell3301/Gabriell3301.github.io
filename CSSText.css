@@ -1,0 +1,29 @@
+﻿body
+{
+}
+.TextStyle
+{
+    color:white;
+}
+.Container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: lightgrey;
+}
+#Text_Home {
+    background-color: darkred;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px; /* Espaçamento interno para melhorar a aparência */
+}
+#Text_Lore {
+    width: 800px;
+    align-self:center;
+    padding: 20px; /* Espaçamento interno */
+    margin: 50px; /* Margem externa */
+    background-color: black;
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total */
+}
