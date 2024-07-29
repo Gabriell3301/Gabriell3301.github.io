@@ -1,0 +1,46 @@
+﻿body {
+    margin: 0%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #008080;
+    margin-bottom:5px;
+}
+
+.header {
+    font-size:20px;
+    color:white;
+}
+.container-button {
+    position: absolute; /* Permite usar top/left para centralizar */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Move o container para cima e para a esquerda pela metade do seu tamanho */
+}
+.love-button {
+    text-decoration: none; /* Remove a linha embaixo */
+    background-color: #008080; /* Cor primária verde-azulado */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Borda arredondada */
+    padding: 15px 30px; /* Espaçamento interno */
+    margin: 10px;
+    font-size: 20px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Fonte limpa */
+    text-align: center;
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    transition: all 0.3s ease; /* Transição suave para efeitos de hover */
+}
+
+    .love-button:hover {
+        background-color: #004d4d; /* Cor de fundo ao passar o mouse (verde escuro) */
+        transform: scale(1.05); /* Aumenta ligeiramente o botão */
+    }
+
+    .love-button:active {
+        background-color: #003d3d; /* Cor de fundo quando o botão é pressionado (verde ainda mais escuro) */
+        transform: scale(0.95); /* Diminui ligeiramente o botão ao ser clicado */
+    }
