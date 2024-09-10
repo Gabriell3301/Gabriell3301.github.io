@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>My Love</title>
+    <link href="css/Page3CSS.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="painel">
+        <h1> Feliz 10 Meses, Meu amor.</h1>
+
+        <img src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="">
+
+        <h2>Você me ama?</h2>
+        <div>
+            <!-- Mudar video depois!!! -->
+            <button id="sim" onclick="window.location.href='https://www.youtube.com/watch?v=oRvND-r57Us';">Sim!</button>
+            <button onmouseover="fuja()" id="nao"> Não! </button>
+        </div>
+    </div>
+
+    <!-- Funciona HEHE -->
+    <script> 
+        function fuja()
+        {
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+        } 
+    </script>
+</body>
+</html>
