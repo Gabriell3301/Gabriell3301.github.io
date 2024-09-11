@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: red;
+    background-color: #008080;
 }
 
 .painel {
@@ -18,7 +18,7 @@
     cursor: pointer;
     height: 40px;
     width: 60px;
-    background-color: red;
+    background-color: #008080;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
@@ -30,7 +30,7 @@
     position: absolute;
     height: 40px;
     width: 60px;
-    background-color: red;
+    background-color: #008080;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
